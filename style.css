@@ -1,0 +1,283 @@
+*{
+    text-decoration: none;
+    color: white;
+}
+body{
+    
+    min-height: 1000px;
+    min-width: 1000px;
+}
+
+.darkblue{
+    background-color: #1f2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding: 10px 300px;   
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 1;
+    height: auto;
+    
+    
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 1;
+    height: 100px;
+    min-width: 500px;
+    flex-wrap: wrap;
+    overflow:visible;
+    
+}
+.headerlogo{
+    font-size: 28px;
+    color: #f9faf8;   
+    font-weight: 900; 
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero2{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0px 10px;
+}
+
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    flex: 1 1 1;
+    flex-wrap: nowrap;
+    height: auto;
+    width: auto;
+    gap: 150px;
+    margin-bottom: 40px;
+    
+}
+@media(max-width: 1600px){
+.two{
+    flex-wrap: wrap;
+}
+}
+
+
+.thiswebsiteisawesome{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 390px;
+    height: 100%;
+    flex: 1 1 1;
+    width: 600px;
+    
+}
+.hero1{
+    font-size: 30px;
+    color: #f9faf8;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 1;
+    height: 200px;
+}
+.hero3{
+    font-size: 18px;
+    color: #e5e7eb;
+    flex: 1 1 1;
+    
+}
+
+
+.button{
+    color: white;
+    background-color: #3882f6;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: solid #3882f6;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.bimg{
+  
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 290px;
+    width: 4%;
+    padding-left: 10px;
+    flex: 1 1 1;
+    flex-wrap: wrap;
+    min-height: 10vh;
+    min-width: 30vw;
+    
+}
+#halflifegman{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    
+}
+
+
+.white{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 1000px;
+
+}
+#sri{
+    color: #1f2937;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gollums{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: 50px 20vw;
+    flex-wrap: wrap;
+    
+}
+
+.gollumcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gollum{
+    border: solid #3882f6;;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+#gollumpic{
+    object-fit:fill;
+    height: 100%;
+    width: 100%;
+}
+
+
+#gollumtext{
+    color: #1f2937;
+    width: 200px;
+}
+
+
+.grey{
+    background-color: #e5e7eb;
+    width: 100vw;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    min-width: 1000px;
+}
+#grey1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    margin: 10vh 27vw;
+    
+    
+    
+}
+#grey2{
+    color: #1f2937;
+    margin-left: 65vw;
+    margin-right: 25vw;    
+    font-weight: 900;
+}
+
+.blue{
+   margin: 15vh 15vw; 
+   border-radius: 5px;
+   border: solid #3882f6;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #3882f6;
+   padding: 50px 100px;
+   height: 100px;
+   height: auto;
+   flex: 1 1 1 ;
+   flex-wrap: nowrap;
+}
+@media(max-width: 1600px){
+    .blue{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    }
+
+
+#button2{
+    border: solid thin #f9faf8;
+}
+
+
+.calltoaction{
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+#calltoaction{
+    color: #e5e7eb;
+    margin: -2px 0;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1000px;
+}
